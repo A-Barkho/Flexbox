@@ -1,0 +1,16 @@
+body{
+    background-color: lightgray;
+}
+.Navigation{
+    justify-content: space-evenly;
+    display:flex;
+    border: 1px solid black;
+    background-color: white;
+    height:40px;
+    padding-left: 0px;
+}
+.Navigation li{
+    list-style-type:none;
+    flex: 0 0 auto; /*flex-gorw, flex-shring, flex-basis*/
+    font-size: 25px;
+}
