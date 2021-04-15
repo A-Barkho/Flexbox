@@ -1,0 +1,82 @@
+body{
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-evenly;
+
+}
+.cubeBody{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 5px -5px 15px gray inset;
+    display: flex;
+    flex: 0 0 auto;
+    
+}
+.point{
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border-radius: 20px;
+}
+.A{
+    justify-content: center;
+    align-items: center;
+}
+.B{
+    justify-content:space-between;
+    
+}
+.B #p1{
+    align-self: flex-end;
+    margin: 25px;
+}
+.B #p2{
+    align-self: flex-start;
+    margin: 25px;
+}
+.C{
+    justify-content:space-between;
+    align-items: center;
+}
+.C #p1{
+    align-self: flex-end;
+    margin: 20px;
+}
+.C #p3{
+    align-self: flex-start;
+    margin: 15px;
+}
+.D{
+    flex-direction: column;
+    justify-content: space-between;
+}
+.D #pgroup1,#pgroup2{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.E{
+    flex-direction: column;
+    justify-content: space-between;
+}
+.E #pgroup1,#pgroup2{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+.E #p3{
+    align-self: center;
+}
+
+.F{
+    flex-direction: column;
+    justify-content: space-between;
+}
+.F #pgroup1,#pgroup2{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
